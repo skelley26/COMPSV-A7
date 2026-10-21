@@ -1,0 +1,6 @@
+Why is a tree appropriate for the doctor structure?
+    I think that a preorder traversal works best for the doctor structure because it starts with the node, which is most important in this case, then branches out. Usually, in doctor settings, there is a hierarchy, so having the top of the pyramid first makes more sense. 
+When might a software engineer use preorder, inorder, or postorder traversals?
+    Preorder is for trees where the root is super important for the subtrees to have. Inorder is for printing the content in order, it goes left to right. And postorder is opposite of preorder, which goes left to right and then puts the root. 
+How do heaps help simulate real-time systems like emergency intake?
+    Since the order goes from most urgent (1) to least urgent, it really does make sense for a heap to be used in an emergency room. We compute it to track if the priority (or in this case urgency) is lower and sorts it that way. Without heaps, we would have to read through a list to find the most urgent and pop it off the queue which is inefficient. Not to mention life threatening beacuse human error could make you miss a more urgent patient. Heaps cut that risk out of the question. 
